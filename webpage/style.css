@@ -1,0 +1,89 @@
+.top{
+    background-color:white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h2{
+  
+    text-align: center;
+    position: relative;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+h2,b{
+   
+    color:navy;
+}
+p{
+    color:rgb(57, 57, 92);
+}
+img
+{    border: #edca62 3px solid;
+    border-radius: 5px;
+    
+}
+.category{
+    padding: 7px;
+    border: #edca62 3px solid;
+    color: #edca62;
+    margin-right: 2px;
+    margin-left: 2pc;
+    border-radius: 7px;
+    display: inline-block;
+} 
+
+h2::after
+{
+    background-color:#edca62;
+    content: "\00a0 ";
+    width: 50px;
+    position: absolute;
+    height: 2px;
+    bottom: -11px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.menulist{
+    width: 50%;
+    float: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.menuimg{
+    width: 30%;
+    float: left;
+}
+.menucond{
+    width: 70%;
+    float: left;
+}
+.contentpadd
+{
+    margin: 0 20px;
+}
+#dishes{
+    margin: auto 20px;
+}
+.price{
+    float: right;
+    color: #edca62;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
